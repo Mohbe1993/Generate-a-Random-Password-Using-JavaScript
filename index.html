@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <title>Generate a Random Password Using JavaScript</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="cont">
+      <h1>Generate a<br />Random Password</h1>
+      <div class="dis">
+        <input type="text" id="pass" placeholder="Password" />
+        <i class="fa-solid fa-copy" onclick="copy()"></i>
+      </div>
+      <button onclick="create()">
+        <i class="fa-solid fa-bolt fa-2x"></i>Generate a Password
+      </button>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
